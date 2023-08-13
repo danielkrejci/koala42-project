@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@keyframes expandHeight {
+    0% {
+      height: 0;
+      opacity: 0;
+    }
+    100% {
+      height: auto;
+      opacity: 1;
+    }
+  }
