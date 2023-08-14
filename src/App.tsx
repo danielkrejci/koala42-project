@@ -1,12 +1,8 @@
-
-import { SpacemanTable } from "./components/SpacemanTableComponent/SpacemanTable";
+import { SpacemanTable } from './components/spacemanTable/SpacemanTable'
+import './index.css'
 
 function App() {
-  return (
-    <div>
-      <SpacemanTable />
-    </div>
-  )
+    return <SpacemanTable />
 }
 
 export default App
