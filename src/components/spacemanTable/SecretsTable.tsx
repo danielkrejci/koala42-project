@@ -1,4 +1,4 @@
-import { SecretsData } from '../../models/SpacemanModel'
+import { SecretsData } from '../../models/SecretsModel'
 import { SecretsTableItem } from './SecretsTableItem'
 
 interface SecretsTableProps {

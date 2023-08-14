@@ -1,5 +1,5 @@
 import { DeleteButton } from '../button/DeleteButton'
-import { SecretsData } from '../../models/SpacemanModel'
+import { SecretsData } from '../../models/SecretsModel'
 
 interface SecretsTableItemProps {
     data: SecretsData

@@ -1,6 +1,6 @@
 import { DeleteButton } from '../button/DeleteButton'
 import { useState } from 'react'
-import { NemesisData } from '../../models/SpacemanModel'
+import { NemesisData } from '../../models/NemesisModel'
 import { SecretsTable } from './SecretsTable'
 import { ToggleButton } from '../button/ToggleButton'
 

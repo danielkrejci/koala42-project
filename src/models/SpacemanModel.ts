@@ -1,3 +1,5 @@
+import { NemesisData } from './NemesisModel'
+
 export interface SpacemanItem {
     id: number
     name: string
@@ -14,26 +16,4 @@ export interface SpacemanItem {
 export interface SpacemanData {
     data: SpacemanItem
     nemesis: NemesisData[]
-}
-
-export interface NemesisItem {
-    id: number
-    characterId: number
-    isAlive: boolean
-    years: number
-}
-
-export interface NemesisData {
-    data: NemesisItem
-    secrets: SecretsData[]
-}
-
-export interface SecretsItem {
-    id: number
-    nemesisId: number
-    code: string
-}
-
-export interface SecretsData {
-    data: SecretsItem
 }

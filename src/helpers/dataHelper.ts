@@ -1,4 +1,6 @@
-import { SpacemanData, NemesisData, SecretsData } from '../models/SpacemanModel'
+import { NemesisData } from '../models/NemesisModel'
+import { SecretsData } from '../models/SecretsModel'
+import { SpacemanData } from '../models/SpacemanModel'
 
 export const loadSpacemanData = (jsonData: object): SpacemanData[] => {
     const data: SpacemanData[] = []

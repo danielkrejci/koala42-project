@@ -1,4 +1,4 @@
-import { NemesisData } from '../../models/SpacemanModel'
+import { NemesisData } from '../../models/NemesisModel'
 import { NemesisTableItem } from './NemesisTableItem'
 
 interface NemesisTableProps {
